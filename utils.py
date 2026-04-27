@@ -10,14 +10,13 @@ import os
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # 🔑 Replace with your OpenRouter API key
-OPENROUTER_API_KEY = os.getenv("sk-or-v1-05100e61296c9e85fd5cbf14b03b0b50f80962e9c5fbd9f834fa8d2bf48a48a1Y") 
 
+OPENROUTER_API_KEY = "sk-or-v1-05100e61296c9e85fd5cbf14b03b0b50f80962e9c5fbd9f834fa8d2bf48a48a1Y"
 
 HEADERS = {
     "Authorization": f"Bearer {OPENROUTER_API_KEY}",
     "Content-Type": "application/json"
 }
-
 EXCEL_FILE = "prompts.xlsx"
 
 
